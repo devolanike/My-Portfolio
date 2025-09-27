@@ -508,3 +508,47 @@ body.offcanvas-open {
     opacity: 1;
   }
 }
+.awards-div {
+  gap: 11px;
+}
+.awards {
+  transform: scaleY(1.5);
+  letter-spacing: -4;
+}
+.number {
+  transform-origin: bottom;
+  transform: scale(1.6, 1.9);
+  font-size: 90px;
+}
+.scale1,
+.scale2,
+.scale3 {
+  transform: scale(5, 10);
+  transform-origin: left;
+  font-family: "cinzel", serif;
+  letter-spacing: -4;
+  color: #1c1b19;
+  text-shadow: 0px 0.4px rgb(83, 83, 83);
+}
+.scale2 {
+  transform: scale(5.5, 8);
+}
+.scale3 {
+  transform: scale(9, 6.5);
+  letter-spacing: -2;
+}
+.humankindlg {
+  font-size: 60px;
+  letter-spacing: -6;
+  font-family: "cinzel", sans-serif;
+  font-weight: 900;
+  transform: scaleY(1);
+  line-height: 50px;
+}
+.medium-hk {
+  gap: 20px;
+}
+.view-site {
+  border-radius: 50%;
+  background-color: #d3cfcc;
+}
