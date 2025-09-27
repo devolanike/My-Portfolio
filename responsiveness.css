@@ -40,6 +40,31 @@
     height: 11vh;
   }
 }
+@media screen and (max-width: 1025px) {
+  .images {
+    height: 11vh;
+  }
+  .texta {
+    height: 4vh;
+  }
+  .div2a {
+    height: 26vh;
+  }
+  .words {
+    height: 2vh;
+  }
+  .div4a {
+    height: 16vh;
+  }
+  .textb {
+    margin-bottom: 10%;
+    height: 6vh;
+    margin-bottom: 25%;
+  }
+  .sec5img {
+    height: 8vh;
+  }
+}
 @media screen and (max-width: 1024px) {
   .images {
     height: 22vh;
@@ -48,9 +73,8 @@
   .div4a > h1 {
     font-size: 9rem !important;
   }
-  .div2a,
-  .div4a {
-    height: 50vh;
+  .div2a {
+    height: 42vh;
   }
   .texta {
     height: 9vh;
@@ -97,31 +121,7 @@
     margin-bottom: 22%;
   }
 }
-@media screen and (max-width: 1025px) {
-  .images {
-    height: 11vh;
-  }
-  .texta {
-    height: 4vh;
-  }
-  .div2a {
-    height: 26vh;
-  }
-  .words {
-    height: 2vh;
-  }
-  .div4a {
-    height: 16vh;
-  }
-  .textb {
-    margin-bottom: 10%;
-    height: 6vh;
-    margin-bottom: 25%;
-  }
-  .sec5img {
-    height: 8vh;
-  }
-}
+
 @media screen and (max-width: 820px) {
   .div1a {
     padding: 10% 3%;
@@ -210,11 +210,30 @@
     height: 12vh;
   }
 }
+@media screen and (max-width: 769px) {
+  .images {
+    height: 11vh;
+  }
+
+  .div2a,
+  .div4a {
+    height: 32vh;
+  }
+  .words {
+    height: 2vh;
+  }
+  .div4a {
+    height: 16vh;
+  }
+}
 
 @media screen and (max-width: 768px) {
   .div1a {
     padding: 10% 3%;
     padding-bottom: 2%;
+  }
+  .images {
+    height: 20vh;
   }
   .div1c > h1 {
     font-size: 30px;
@@ -244,6 +263,7 @@
     font-size: 42px;
     letter-spacing: -4px;
     margin-bottom: 8%;
+    height: 5vh;
   }
   .div3c {
     width: 70%;
@@ -274,33 +294,48 @@
   .div5a {
     padding-top: 2%;
   }
+  .div4a {
+    height: 24vh;
+  }
   .div4a > h1 {
     font-size: 3rem !important;
   }
   .section5 {
     flex-direction: column-reverse !important;
   }
-  .images {
-    height: 20vh;
+  .sec5img {
+    height: 26vh;
   }
   .card5:hover > img {
     transition-duration: 300ms;
     transform: translate(200px, 60px);
   }
-}
-@media screen and (max-width: 768px) {
-  .images {
-    height: 11vh;
+  .div2a {
+    height: 51vh;
   }
-  .div2a,
-  .div4a {
-    height: 32vh;
+}
+
+@media screen and (max-width: 431px) {
+  .images {
+    height: 19vh;
   }
   .words {
-    height: 2vh;
+    height: 1.5vh;
+  }
+  .sec5img {
+    height: 18.5vh !important;
   }
   .div4a {
-    height: 16vh;
+    height: 12vh;
+  }
+  .div5a {
+    margin-left: 5%;
+  }
+  .div2a {
+    height: 20vh;
+  }
+  .card5:hover > img {
+    transform: translate(100px, 32px);
   }
 }
 @media screen and (max-width: 430px) {
@@ -310,6 +345,9 @@
     flex-wrap: wrap;
     justify-content: start;
     width: 163%;
+  }
+  .images {
+    height: 34vh;
   }
   .texts {
     font-size: 5rem;
@@ -407,29 +445,7 @@
     border-right: 1px solid #96928c;
   }
 }
-@media screen and (max-width: 431px) {
-  .images {
-    height: 19vh;
-  }
-  .words {
-    height: 1.5vh;
-  }
-  .sec5img {
-    height: 18.5vh !important;
-  }
-  .div4a {
-    height: 12vh;
-  }
-  .div5a {
-    margin-left: 5%;
-  }
-  .div2a {
-    height: 20vh;
-  }
-  .card5:hover > img {
-    transform: translate(100px, 32px);
-  }
-}
+
 @media screen and (max-width: 414px) {
   .images {
     height: 13vh;
@@ -449,6 +465,9 @@
   }
   .div5a {
     margin-left: 5%;
+  }
+  .div4a {
+    height: 11vh;
   }
 }
 @media screen and (max-width: 380px) {
