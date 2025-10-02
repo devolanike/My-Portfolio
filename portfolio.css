@@ -536,17 +536,16 @@ body.offcanvas-open {
 }
 .div10a {
   gap: 80px;
-  transition: all 4s ease-in-out;
   animation-name: slide;
   animation-timing-function: linear;
-  animation-duration: 4s;
+  animation-duration: 10s;
   animation-iteration-count: infinite;
 }
 @keyframes slide {
-  from {
-    transform: translateX(200px);
+  0% {
+    transform: translateX(0%);
   }
-  to {
-    transform: translateX(-200px);
+ 100% {
+    transform: translateX(-100%);
   }
 }
