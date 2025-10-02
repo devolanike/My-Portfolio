@@ -231,7 +231,7 @@ body.offcanvas-open {
   transform: scale(1.5);
 }
 .div1c > p {
-  animation-duration: 8s;
+  animation-duration: 6s;
   animation-name: p;
   transition: 3s transform ease;
 }
